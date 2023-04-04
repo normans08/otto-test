@@ -18,7 +18,7 @@ export default function Home() {
   let formatedText = lines.join("^").toString();
 
   const configuration = new Configuration({
-    apiKey: process.env.NEXT_PUBLIC_GPT_TOKEN,
+    apiKey: process.env.GPT_TOKEN,
   });
 
   const openai = new OpenAIApi(configuration);
