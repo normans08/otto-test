@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+  padding:0;
+  margin:0;
+  background-color: #808080;
+}
+.background{
+  height: 100vh;
+  color: #fff;
+  object-fit: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url('https://wallpaper.dog/large/5560144.jpg');
+}
